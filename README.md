@@ -1,0 +1,2 @@
+# cypressTemplate
+cypress framework template
