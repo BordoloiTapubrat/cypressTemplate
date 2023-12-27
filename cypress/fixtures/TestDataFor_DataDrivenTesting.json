@@ -1,0 +1,22 @@
+[
+    {
+        "url":"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+        "userName": "Admin",
+        "password": "admin123",
+        "assertDashboard":"Dashboard"
+    },
+
+    {
+        "url":"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+        "userName": "Admin",
+        "password": "admin1234",
+        "assertDashboard":"Invalid credentials"
+    },
+
+    {
+        "url":"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+        "userName": "Admin1",
+        "password": "admin123",
+        "assertDashboard":"Invalid credentials"
+    }
+]

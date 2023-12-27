@@ -1,0 +1,14 @@
+{
+  "name": "cypresstemplate",
+  "version": "1.0.0",
+  "description": "cypressCode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tapubrat",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.2"
+  }
+}
