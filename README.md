@@ -3,7 +3,6 @@ cypress framework template
 
 ### Cypress Test Syntax
 describe("Suite Name", ()=>{
-
     it("Test Case 1", ()=>
     {
         cy.visit("url")
