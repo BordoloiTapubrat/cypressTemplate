@@ -4,8 +4,10 @@ import URL1 from "../../ApplicationURLs/ApplicationURLs.js"
 
 //Test Suite
 describe('Login Test Suite', ()=>{
+
     // Varible to hold test data from fixtures folder - json test data file
     let testData
+    
     //Hook to run once and read all the test data
     before('Get Test Data',()=>{
 
