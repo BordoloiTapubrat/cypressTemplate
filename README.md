@@ -1,15 +1,15 @@
 # cypressTemplate
 cypress framework template
 
-## Cypress Test Syntax
-### describe("Suite Name", ()=>{
+### Cypress Test Syntax
+describe("Suite Name", ()=>{
 
-###    it("Test Case 1", ()=>
-###    {
-###        cy.visit("url")
-###        cy.get("css locator ").click()
-###    })
-### })
+    it("Test Case 1", ()=>
+    {
+        cy.visit("url")
+        cy.get("css locator ").click()
+    })
+})
 
 ## Cypress xPath
 ## Using Plugin - cypress-xpath - currently deprecated
