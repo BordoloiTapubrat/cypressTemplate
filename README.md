@@ -1,6 +1,9 @@
 # cypressTemplate
 cypress framework and snippets
 
+![Cypress POM](https://github.com/BordoloiTapubrat/cypressTemplate/assets/49464932/f672bbba-8185-483b-aadc-d0f2b5f8344c)
+
+
 ### Cypress Test Syntax
 
 describe("Suite Name", ()=>{<br />
