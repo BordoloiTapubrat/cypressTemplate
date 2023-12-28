@@ -2,6 +2,7 @@
 
 //Get the Login Page CSS Locators
 import loginSelectors from "../LoginSelectors/loginSelectors.js";
+import executionConfigs from "../ExecutionConfigs/ExecutionConf.js";
 class Login
 {
 
@@ -27,6 +28,15 @@ class Login
     verifyLogin(assertDashboard)
     {
         cy.get(loginSelectors.loginDashboardLbl).should('have.text',assertDashboard);
+    }
+
+
+    //Logout
+    logout()
+    {
+        cy.get(loginSelectors.logoutDropDownIcon).click()
+        cy.wait(executionConfigs.sleepTime)
+        cy.get(loginSelectors.logoutBtn).click()
     }
 
 }

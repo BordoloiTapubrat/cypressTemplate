@@ -17,26 +17,26 @@ Open Cypress Application UI and Select Tests in Application to Execute
 
 **npx cypress open**
 
-Run a specific Test which is called as "spec" and in view it using "headed"
+Run a specific Test which is called as "spec" and view it using "headed"
 
 **npx cypress run --spec cypress\e2e\Tests\LoginTest.cy.js --headed**
 
-Run on a specific browser , a specific Test which is called as "spec" and in view it using "headed"
+Run on a specific browser , a specific Test which is called as "spec" and view it using "headed"
 
 **npx cypress run --spec cypress\e2e\Tests\LoginTest.cy.js --headed --browser chrome**
 
-### Cypress xPath
-Using Plugin - cypress-xpath - currently deprecated
+### Cypress xPath<br />
+Using Plugin - cypress-xpath - currently deprecated<br />
 https://www.npmjs.com/package/cypress-xpath
 
 ### Cypress Assertions
-**Using Chai Framework**
+**Using Chai Framework**<br />
 https://docs.cypress.io/guides/references/assertions#Chai
 
-*Assertions Two Types*
-Implicit - Built In Assertions - **should** , **and**
+*Assertions Two Types*<br />
+Implicit - Built In Assertions - **should** , **and** <br />
 Explicit - Need To Write Explicitly - **expect**  (BDD Type) , **assert** (TDD Type)
 
-### Cypress Reports - 
+### Cypress Reports - <br />
 Using **cypress-mochawesome-reporter**
 https://www.npmjs.com/package/cypress-mochawesome-reporter
